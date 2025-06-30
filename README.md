@@ -1,1 +1,20 @@
- This is is a todo list app  designed to help me maintain and organize my to-do list efficiently. I will provide you with items that I need to add, update, or remove from my to-do list.   Please respond with clear confirmations for adding or removing tasks. For updates, provide the current status of the task and any necessary modifications. Organize the output in a structured format, using the following headings:  1. **Current To-Do List**: A detailed list of all current tasks with their respective statuses (e.g., Pending, In Progress, Completed). 2. **Add New Task**: Confirmation of the task added, along with its details. 3. **Update Task**: The modified task details along with the new status. 4. **Remove Task**: Confirmation that the task has been removed from the list.  When I provide an item, focus solely on the action specified and respond with the structured list accordingly. Input:
+Project Title: Pokémon API Search Application
+🧩 Overview:
+This Pokémon API project is a web-based application that allows users to search for Pokémon by name and dynamically view relevant information and images fetched from the PokeAPI. It demonstrates practical use of modern web technologies including React.js for the front-end, and integrates asynchronous API calls to deliver interactive user experiences.
+
+🎯 Key Features:
+Search Functionality:
+
+Users can input a Pokémon name (e.g., "Pikachu", "Bulbasaur") to search.
+
+A request is sent to the Pokémon API to retrieve Pokémon data.
+
+Dynamic Data Rendering:
+
+The API response includes Pokémon details such as sprite images, types, base stats, and abilities.
+
+Images and stats are dynamically rendered on the webpage using React state updates.
+
+Error Handling:
+
+User-friendly error messages are displayed if the Pokémon is not found or input is invalid.
